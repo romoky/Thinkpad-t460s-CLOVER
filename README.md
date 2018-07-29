@@ -1,4 +1,4 @@
-##Thinkpad-T460s-CLOVER
+## Thinkpad-T460s-CLOVER
 include DSDT patches, kexts
 
 
@@ -7,7 +7,7 @@ include DSDT patches, kexts
 
 
 
-##Thinkpad T460s配置
+## Thinkpad T460s配置
 
 * i5-6200U
 * intel HD520 graphics & GTX 930M
@@ -41,7 +41,7 @@ include DSDT patches, kexts
 * 指纹无法工作。
 
 
-##注意部分
+## 注意部分
 * mac os 10.13.* 系统需要在drivers64UEFI文件夹下面多加上apfs.efi
 * Fack ID/ intelGFX=0x1234567
 * 关于clover设置详细自己需要到
