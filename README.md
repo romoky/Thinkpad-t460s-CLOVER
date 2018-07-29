@@ -44,4 +44,4 @@ include DSDT patches, kexts
 ## 注意部分
 * mac os 10.13.* 系统需要在drivers64UEFI文件夹下面多加上apfs.efi
 * Fack ID/ intelGFX=0x1234567
-* 关于clover设置详细自己需要到
+* 关于clover设置详细自己需要到远景论坛爬贴。
