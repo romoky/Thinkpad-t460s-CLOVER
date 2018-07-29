@@ -8,7 +8,7 @@ include DSDT patches, kexts
 
 
 ## Thinkpad T460s配置
-
+![images](https://github.com/romoky/Thinkpad-t460s-CLOVER/blob/master/images/2.png)
 * i5-6200U
 * intel HD520 graphics & GTX 930M
 * No-touch 1920x1080
