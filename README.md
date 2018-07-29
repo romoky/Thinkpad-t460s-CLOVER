@@ -1,4 +1,4 @@
-##Thinkpad-T460s-CLOVER
+#Thinkpad-T460s-CLOVER
 include DSDT patches, kexts
 
 
@@ -7,7 +7,7 @@ include DSDT patches, kexts
 
 
 
-##Thinkpad T460s配置
+#Thinkpad T460s配置
 
 * i5-6200U
 * intel HD520 graphics & GTX 930M
@@ -18,7 +18,7 @@ include DSDT patches, kexts
 
 
 
-## 工作正常部分
+# 工作正常部分
 * Wi-Fi/BT 更换为 Dell DW1560（BCM94352Z）wifi/bt 通过rehabman提供的BrcmPatchRAM2.kext/BrcmFirmwareRepo.kext 驱动成功。
 * 有线网卡通过使用IntelMausiEthernext.kext 驱动成功
 * 声卡通过VoodooHDA.kext 驱动成功
@@ -32,7 +32,7 @@ include DSDT patches, kexts
 
 
 
-## 无解部分
+# 无解部分
 * 长时间睡眠后唤醒假死
 * 开机需要手动选择声音输出设备，开机默认耳机输出。
 * 开机亮度似乎都为最亮（100%）
@@ -41,7 +41,7 @@ include DSDT patches, kexts
 * 指纹无法工作。
 
 
-##注意部分
+#注意部分
 * mac os 10.13.* 系统需要在drivers64UEFI文件夹下面多加上apfs.efi
 * Fack ID/ intelGFX=0x1234567
 * 关于clover设置详细自己需要到远景论坛爬贴，这样出现问题心中才有数，黑苹果安装一定有做好备份工作，具体Windows备份自己Google。
