@@ -1,0 +1,98 @@
+17:435  0:086  Found UEFI Acpi 2.0 RSDP at B7FFE014
+17:435  0:000  Saving ACPI tables from RSDP B7FFE014 to EFI\CLOVER\ACPI\origin ...
+17:435  0:000   B7FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:435  0:000    (Xsdt: B7FD0188, Rsdt: B7FD00C4)
+17:435  0:000    B7FD0188: 'XSDT', 'TP-N1C', Rev: 1, Len: 236
+17:435  0:000    B7FD00C4: 'RSDT', 'TP-N1C', Rev: 1, Len: 136
+17:435  0:000    Tables in Xsdt: 25
+17:435  0:000    0. B7FF4000: 'FACP', 'TP-N1C', Rev: 5, Len: 244
+17:435  0:000        (Dsdt: B7FDD000, Facs: B7F94000, XDsdt: B7FDD000, XFacs: 0)
+17:435  0:000        B7FDD000: 'DSDT', 'TP-N1C', Rev: 2, Len: 75151
+17:437  0:001        B7F94000: 'FACS', Ver: 2, Len: 64
+17:437  0:000    1. B7FFC000: 'TCPA', 'TP-N1C', Rev: 2, Len: 50
+17:437  0:000    2. B7FFB000: 'SSDT', 'TcgTable', Rev: 2, Len: 930
+17:437  0:000    3. B7FAB000: 'UEFI', 'TP-N1C', Rev: 1, Len: 66
+17:437  0:000    4. B7FF6000: 'SSDT', 'SaSsdt', Rev: 2, Len: 19978
+17:437  0:000    5. B7FF5000: 'SSDT', 'PerfTune', Rev: 2, Len: 1477
+17:437  0:000    6. B7FF3000: 'ECDT', 'TP-N1C', Rev: 1, Len: 82
+17:437  0:000    7. B7FF2000: 'HPET', 'TP-N1C', Rev: 1, Len: 56
+17:437  0:000    8. B7FF1000: 'APIC', 'TP-N1C', Rev: 3, Len: 188
+17:437  0:000    9. B7FF0000: 'MCFG', 'TP-N1C', Rev: 1, Len: 60
+17:437  0:000    10. B7FDB000: 'SSDT', 'SataAhci', Rev: 1, Len: 6354
+17:437  0:000    11. B7FDA000: 'DBGP', 'TP-N1C', Rev: 1, Len: 52
+17:437  0:000    12. B7FD9000: 'DBG2', 'TP-N1C', Rev: 0, Len: 84
+17:437  0:000    13. B7FD8000: 'BOOT', 'TP-N1C', Rev: 1, Len: 40
+17:437  0:000    14. B7FD7000: 'BATB', 'TP-N1C', Rev: 2, Len: 74
+17:437  0:000    15. B7FD6000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+17:437  0:000    16. B7FD5000: 'SSDT', 'CtdpB', Rev: 2, Len: 1027
+17:437  0:000    17. B7FD4000: 'POAT', 'TP-N1C', Rev: 3, Len: 85
+17:437  0:000    18. B7FD3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 36
+17:437  0:000    19. B7FD2000: 'SSDT', 'SgPch', Rev: 2, Len: 3558
+17:437  0:000    20. B7FD1000: 'DMAR', 'TP-N1C', Rev: 1, Len: 168
+17:437  0:000    21. B7FFD000: 'ASF!', 'TP-N1C', Rev: 32, Len: 165
+17:437  0:000    22. B7FCF000: 'FPDT', 'TP-N1C', Rev: 1, Len: 68
+17:437  0:000    23. B7FCE000: 'BGRT', 'TP-N1C', Rev: 1, Len: 56
+17:437  0:000    24. B7F71000: 'UEFI', 'TP-N1C', Rev: 1, Len: 318
+17:437  0:000    Tables in Rsdt: 25
+17:437  0:000    0. B7FF4000: 'FACP', 'TP-N1C', Rev: 5, Len: 244
+17:437  0:000        (Dsdt: B7FDD000, Facs: B7F94000, XDsdt: B7FDD000, XFacs: 0)
+17:437  0:000        B7FDD000: 'DSDT', 'TP-N1C', Rev: 2, Len: 75151
+17:439  0:001        B7F94000: 'FACS', Ver: 2, Len: 64
+17:439  0:000    1. B7FFC000: 'TCPA', 'TP-N1C', Rev: 2, Len: 50
+17:439  0:000    2. B7FFB000: 'SSDT', 'TcgTable', Rev: 2, Len: 930
+17:439  0:000    3. B7FAB000: 'UEFI', 'TP-N1C', Rev: 1, Len: 66
+17:439  0:000    4. B7FF6000: 'SSDT', 'SaSsdt', Rev: 2, Len: 19978
+17:439  0:000    5. B7FF5000: 'SSDT', 'PerfTune', Rev: 2, Len: 1477
+17:439  0:000    6. B7FF3000: 'ECDT', 'TP-N1C', Rev: 1, Len: 82
+17:439  0:000    7. B7FF2000: 'HPET', 'TP-N1C', Rev: 1, Len: 56
+17:439  0:000    8. B7FF1000: 'APIC', 'TP-N1C', Rev: 3, Len: 188
+17:439  0:000    9. B7FF0000: 'MCFG', 'TP-N1C', Rev: 1, Len: 60
+17:439  0:000    10. B7FDB000: 'SSDT', 'SataAhci', Rev: 1, Len: 6354
+17:439  0:000    11. B7FDA000: 'DBGP', 'TP-N1C', Rev: 1, Len: 52
+17:439  0:000    12. B7FD9000: 'DBG2', 'TP-N1C', Rev: 0, Len: 84
+17:439  0:000    13. B7FD8000: 'BOOT', 'TP-N1C', Rev: 1, Len: 40
+17:439  0:000    14. B7FD7000: 'BATB', 'TP-N1C', Rev: 2, Len: 74
+17:439  0:000    15. B7FD6000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+17:439  0:000    16. B7FD5000: 'SSDT', 'CtdpB', Rev: 2, Len: 1027
+17:439  0:000    17. B7FD4000: 'POAT', 'TP-N1C', Rev: 3, Len: 85
+17:439  0:000    18. B7FD3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 36
+17:439  0:000    19. B7FD2000: 'SSDT', 'SgPch', Rev: 2, Len: 3558
+17:439  0:000    20. B7FD1000: 'DMAR', 'TP-N1C', Rev: 1, Len: 168
+17:439  0:000    21. B7FFD000: 'ASF!', 'TP-N1C', Rev: 32, Len: 165
+17:439  0:000    22. B7FCF000: 'FPDT', 'TP-N1C', Rev: 1, Len: 68
+17:439  0:000    23. B7FCE000: 'BGRT', 'TP-N1C', Rev: 1, Len: 56
+17:439  0:000    24. B7F71000: 'UEFI', 'TP-N1C', Rev: 1, Len: 318
+17:439  0:000  Found UEFI Acpi 1.0 RSDP at B7FFE000
+17:439  0:000  Printing ACPI tables from RSDP B7FFE000 ...
+17:439  0:000   B7FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+17:439  0:000    (Rsdt: B7FD0000)
+17:439  0:000    B7FD0000: 'RSDT', 'TP-N1C', Rev: 1, Len: 136
+17:439  0:000    Tables in Rsdt: 25
+17:439  0:000    0. B7FF4000: 'FACP', 'TP-N1C', Rev: 5, Len: 244
+17:439  0:000        (Dsdt: B7FDD000, Facs: B7F94000, XDsdt: B7FDD000, XFacs: 0)
+17:439  0:000        B7FDD000: 'DSDT', 'TP-N1C', Rev: 2, Len: 75151
+17:440  0:001        B7F94000: 'FACS', Ver: 2, Len: 64
+17:440  0:000    1. B7FFC000: 'TCPA', 'TP-N1C', Rev: 2, Len: 50
+17:440  0:000    2. B7FFB000: 'SSDT', 'TcgTable', Rev: 2, Len: 930
+17:440  0:000    3. B7FAB000: 'UEFI', 'TP-N1C', Rev: 1, Len: 66
+17:440  0:000    4. B7FF6000: 'SSDT', 'SaSsdt', Rev: 2, Len: 19978
+17:440  0:000    5. B7FF5000: 'SSDT', 'PerfTune', Rev: 2, Len: 1477
+17:440  0:000    6. B7FF3000: 'ECDT', 'TP-N1C', Rev: 1, Len: 82
+17:440  0:000    7. B7FF2000: 'HPET', 'TP-N1C', Rev: 1, Len: 56
+17:440  0:000    8. B7FF1000: 'APIC', 'TP-N1C', Rev: 3, Len: 188
+17:440  0:000    9. B7FF0000: 'MCFG', 'TP-N1C', Rev: 1, Len: 60
+17:440  0:000    10. B7FDB000: 'SSDT', 'SataAhci', Rev: 1, Len: 6354
+17:440  0:000    11. B7FDA000: 'DBGP', 'TP-N1C', Rev: 1, Len: 52
+17:440  0:000    12. B7FD9000: 'DBG2', 'TP-N1C', Rev: 0, Len: 84
+17:440  0:000    13. B7FD8000: 'BOOT', 'TP-N1C', Rev: 1, Len: 40
+17:440  0:000    14. B7FD7000: 'BATB', 'TP-N1C', Rev: 2, Len: 74
+17:440  0:000    15. B7FD6000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+17:440  0:000    16. B7FD5000: 'SSDT', 'CtdpB', Rev: 2, Len: 1027
+17:440  0:000    17. B7FD4000: 'POAT', 'TP-N1C', Rev: 3, Len: 85
+17:440  0:000    18. B7FD3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 36
+17:440  0:000    19. B7FD2000: 'SSDT', 'SgPch', Rev: 2, Len: 3558
+17:440  0:000    20. B7FD1000: 'DMAR', 'TP-N1C', Rev: 1, Len: 168
+17:440  0:000    21. B7FFD000: 'ASF!', 'TP-N1C', Rev: 32, Len: 165
+17:440  0:000    22. B7FCF000: 'FPDT', 'TP-N1C', Rev: 1, Len: 68
+17:440  0:000    23. B7FCE000: 'BGRT', 'TP-N1C', Rev: 1, Len: 56
+17:440  0:000    24. B7F71000: 'UEFI', 'TP-N1C', Rev: 1, Len: 318

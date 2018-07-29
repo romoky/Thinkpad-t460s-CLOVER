@@ -1,0 +1,81 @@
+# misc_Rename-XHCI.txt
+
+# ** WARNING ** This is not a generic patch, it's specific to my system's DSDT
+
+# rename XHCI -> XHC_ for use with USB injection (10.11)
+into_all all code_regex XHCI\. replaceall_matched begin XHC_. end;
+into_all all code_regex \.XHCI replaceall_matched begin .XHC_ end;
+into_all all code_regex \sXHCI, replaceall_matched begin XHC_, end;
+into_all all code_regex \(XHCI replaceall_matched begin (XHC_ end;
+into_all all code_regex \.XHCI\. replaceall_matched begin .XHC_. end;
+
+into_all method code_regex XHCI\. replace_matched begin XHC_. end;
+into_all method code_regex \.XHCI replace_matched begin .XHC_ end;
+into_all method code_regex \sXHCI, replaceall_matched begin XHC_, end;
+into_all method code_regex \(XHCI replaceall_matched begin (XHC_ end;
+into_all method code_regex \.XHCI\. replaceall_matched begin .XHC_. end;
+
+into_all all label XHCI set_label begin XHC_ end;
+
+into_all all label _SB.PCI0.XHCI set_label begin _SB.PCI0.XHC_ end;
+into_all all label \_SB.PCI0.XHCI set_label begin \_SB.PCI0.XHC_ end;
+into_all all label _SB.PCI0.XHCI.URTH set_label begin _SB.PCI0.XHC_.URTH end;
+into_all all label \_SB.PCI0.XHCI.URTH set_label begin \_SB.PCI0.XHC_.URTH end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP0 set_label begin _SB.PCI0.XHC_.URTH.HSP0 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP0 set_label begin \_SB.PCI0.XHC_.URTH.HSP0 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP1 set_label begin _SB.PCI0.XHC_.URTH.HSP1 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP1 set_label begin \_SB.PCI0.XHC_.URTH.HSP1 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP2 set_label begin _SB.PCI0.XHC_.URTH.HSP2 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP2 set_label begin \_SB.PCI0.XHC_.URTH.HSP2 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP3 set_label begin _SB.PCI0.XHC_.URTH.HSP3 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP3 set_label begin \_SB.PCI0.XHC_.URTH.HSP3 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP4 set_label begin _SB.PCI0.XHC_.URTH.HSP4 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP4 set_label begin \_SB.PCI0.XHC_.URTH.HSP4 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP5 set_label begin _SB.PCI0.XHC_.URTH.HSP5 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP5 set_label begin \_SB.PCI0.XHC_.URTH.HSP5 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP6 set_label begin _SB.PCI0.XHC_.URTH.HSP6 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP6 set_label begin \_SB.PCI0.XHC_.URTH.HSP6 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP7 set_label begin _SB.PCI0.XHC_.URTH.HSP7 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP7 set_label begin \_SB.PCI0.XHC_.URTH.HSP7 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP8 set_label begin _SB.PCI0.XHC_.URTH.HSP8 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP8 set_label begin \_SB.PCI0.XHC_.URTH.HSP8 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP9 set_label begin _SB.PCI0.XHC_.URTH.HSP9 end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP9 set_label begin \_SB.PCI0.XHC_.URTH.HSP9 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSPA set_label begin _SB.PCI0.XHC_.URTH.HSPA end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSPA set_label begin \_SB.PCI0.XHC_.URTH.HSPA end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSPB set_label begin _SB.PCI0.XHC_.URTH.HSPB end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSPB set_label begin \_SB.PCI0.XHC_.URTH.HSPB end;
+
+into_all all label _SB.PCI0.XHCI.URTH.SSP0 set_label begin _SB.PCI0.XHC_.URTH.SSP0 end;
+into_all all label \_SB.PCI0.XHCI.URTH.SSP0 set_label begin \_SB.PCI0.XHC_.URTH.SSP0 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.SSP1 set_label begin _SB.PCI0.XHC_.URTH.SSP1 end;
+into_all all label \_SB.PCI0.XHCI.URTH.SSP1 set_label begin \_SB.PCI0.XHC_.URTH.SSP1 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.SSP2 set_label begin _SB.PCI0.XHC_.URTH.SSP2 end;
+into_all all label \_SB.PCI0.XHCI.URTH.SSP2 set_label begin \_SB.PCI0.XHC_.URTH.SSP2 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.SSP3 set_label begin _SB.PCI0.XHC_.URTH.SSP3 end;
+into_all all label \_SB.PCI0.XHCI.URTH.SSP3 set_label begin \_SB.PCI0.XHC_.URTH.SSP3 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.SSP4 set_label begin _SB.PCI0.XHC_.URTH.SSP4 end;
+into_all all label \_SB.PCI0.XHCI.URTH.SSP4 set_label begin \_SB.PCI0.XHC_.URTH.SSP4 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.SSP5 set_label begin _SB.PCI0.XHC_.URTH.SSP5 end;
+into_all all label \_SB.PCI0.XHCI.URTH.SSP5 set_label begin \_SB.PCI0.XHC_.URTH.SSP5 end;
+
+into_all all label _SB.PCI0.XHCI.URTH.HSP7.WCAM set_label begin _SB.PCI0.XHC_.URTH.HSP7.WCAM end;
+into_all all label \_SB.PCI0.XHCI.URTH.HSP7.WCAM set_label begin \_SB.PCI0.XHC_.URTH.HSP7.WCAM end;
+

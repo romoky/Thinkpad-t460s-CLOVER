@@ -1,0 +1,9 @@
+# _Q2B - enable LID Sleep
+into method label _Q2B code_regex ([\s\S]*) replace_matched
+begin
+    // this method is for lid close\n
+    Notify (\\_SB.SLPB, 0x02)\n
+    \\VCMS (0x01, \\_SB.LID._LID ())\n
+    Notify (\\_SB.LID, 0x80)\n
+end;
+// EOF

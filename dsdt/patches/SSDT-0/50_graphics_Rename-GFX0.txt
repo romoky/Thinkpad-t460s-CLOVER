@@ -1,0 +1,1 @@
+../DSDT/50_graphics_Rename-GFX0.txt

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# get current wifi device
+CURRENT_DEVICE=$(networksetup -listallhardwareports | awk '$3=="Wi-Fi" {getline; print $2}')
+# turn off wifi
+networksetup -setairportpower $CURRENT_DEVICE off
+
+# unload bluetooth usb transport kext
+kextload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
+kextload -b com.apple.iokit.IOBluetoothHostControllerUSBTransport

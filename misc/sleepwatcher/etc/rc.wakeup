@@ -1,0 +1,12 @@
+#!/bin/bash
+
+sleep 2
+
+# get current wifi device
+CURRENT_DEVICE=$(networksetup -listnetworkserviceorder | grep -o 'Wi-Fi.*' | grep -o 'en[[:digit:]]')
+# turn on wifi
+networksetup -setairportpower $CURRENT_DEVICE on
+
+# reload bluetooth usb transport
+kextload -b com.apple.iokit.IOBluetoothHostControllerUSBTransport
+kextload -b com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport

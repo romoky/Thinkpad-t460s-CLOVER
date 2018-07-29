@@ -1,0 +1,13 @@
+into device Label KBD insert
+begin
+        // Select specific keyboard map in VoodooPS2Keyboard.kext\n
+        Method(_DSM, 4)\n
+        {\n
+            If (!Arg2) { Return (Buffer() { 0x03 } ) }\n
+            Return (Package()\n
+            {\n
+                "RM,oem-id", "LENOVO",\n
+                "RM,oem-table-id", "T460",\n
+            })\n
+        }\n
+end;

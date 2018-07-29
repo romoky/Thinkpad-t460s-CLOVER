@@ -1,0 +1,5 @@
+# Rename HCEI to IMEI
+# Needed to get webcam after sleep
+
+into_all all label HECI set_label begin IMEI end;
+
